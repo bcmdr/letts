@@ -2,6 +2,17 @@
 
 Made awesome by [Shallwi](https://shallwi.co).
 
+## Usage
+
+To run this project locally, enter the following commands into terminal:
+```
+git clone https://github.com/bcmdr/letts.git
+npm start
+```
+Then open your browser and head to http://localhost:3000/.
+
+## Made With React
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.  
