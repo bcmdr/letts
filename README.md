@@ -1,6 +1,6 @@
 # Letts - Decide Together
 
-Made awesome by [Shallwi](https://shallwi.co).
+Made awesome by [Shallwi](http://shallwi.co).
 
 ## Usage
 
