@@ -1,4 +1,6 @@
-# Letts
+# Letts - Decide Together
+
+Made awesome by [Shallwi](https://shallwi.co).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
