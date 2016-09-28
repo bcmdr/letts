@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+import './constants.js';
+// import auth from './auth.js';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      username: '@bcmdr'
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,7 +21,7 @@ class App extends Component {
           <h2>Welcome to Letts</h2>
         </div>
         <p className="App-intro">
-          I got started.
+          {this.state.username} got started.
         </p>
       </div>
     );
