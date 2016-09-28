@@ -9,7 +9,7 @@ To run this project locally, enter the following commands into terminal:
 git clone https://github.com/bcmdr/letts.git
 npm start
 ```
-Then open your browser and head to http://localhost:3000/.
+Then open your browser and head to [http://localhost:3000/](http://localhost:3000/).
 
 ## Made With React
 
