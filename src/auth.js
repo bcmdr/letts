@@ -5,6 +5,10 @@ const auth = {
     // Login with Facebook
     const facebookProvider = new C.FIREBASE.auth.FacebookAuthProvider();
     C.FIREBASE.auth().signInWithPopup(facebookProvider);
+  },
+  logout: () => {
+    // Sign out of Firebase.
+    C.FIREBASE.auth().signOut();
   }
 }
 
