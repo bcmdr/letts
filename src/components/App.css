@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -14,4 +14,10 @@
 
 .App-intro {
   font-size: large;
+}
+
+.fb-login-btn, .fb-login-btn:hover {
+  color: white;
+  text-shadow: none;
+  background: #364DA3;
 }
