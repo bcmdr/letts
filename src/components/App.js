@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap'
-
+import {Grid, Row} from 'react-bootstrap';
 import C from '../constants';
-
-import UserNav from './UserNav'
+import auth from '../auth';
 import './App.css';
+import MainNav from './MainNav';
+import AppTopic from './AppTopic';
 
 class App extends Component {
   constructor() {
@@ -30,14 +30,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#">Letts</a>
-            </Navbar.Brand>
-          </Navbar.Header>
-          <UserNav user={this.state.user} />
-        </Navbar>
+        <MainNav brand="Letts" auth={auth} user={this.state.user}/>
+        <Grid>
+          <Row>
+            <AppTopic user={this.state.user} />
+          </Row>
+        </Grid>
       </div>
     );
   }

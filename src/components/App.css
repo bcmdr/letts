@@ -1,23 +1,7 @@
-.App {
-  text-align: left;
+#nav-user-dropdown .caret {
+  display: none;
 }
 
-.App-logo {
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.fb-login-btn, .fb-login-btn:hover {
-  color: white;
-  text-shadow: none;
-  background: #364DA3;
+#nav-user-dropdown {
+  padding: 9px 10px;
 }

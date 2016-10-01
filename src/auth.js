@@ -1,10 +1,20 @@
 import C from './constants'
 
 const auth = {
-  login: () => {
-    // Login with Facebook
-    const facebookProvider = new C.FIREBASE.auth.FacebookAuthProvider();
-    C.FIREBASE.auth().signInWithPopup(facebookProvider);
+  login: (provider) => {
+    // Login with Facebook or Google
+    let authProvider = null;
+    switch(provider) {
+      case 'facebook':
+        authProvider = new C.FIREBASE.auth.FacebookAuthProvider();
+        break;
+      case 'google':
+        authProvider = new C.FIREBASE.auth.GoogleAuthProvider();
+        break;
+      default:
+        authProvider = null;
+    }
+    C.FIREBASE.auth().signInWithPopup(authProvider);
   },
   logout: () => {
     // Sign out of Firebase.
